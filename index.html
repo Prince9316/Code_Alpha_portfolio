@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal portfolio showcasing skills, projects, resume and contact information." />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">SHATRUDHAN KUMAR</a>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+     <main class="container">
+    <section id="hero" class="hero">
+      <div class="hero-left">
+        <p class="eyebrow">Hi, my name is</p>
+        <h1 class="name">Shatrudhah kumar</h1>
+        <p class="tagline">I build accessible, responsive web apps using modern HTML, CSS and JavaScript.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">See my work</a>
+          <a class="btn" href="#resume">Download Resume</a>
+        </div>
+        <ul class="highlights">
+          <li>Frontend Engineer</li>
+          <li>React &amp; TypeScript</li>
+          <li>Performance &amp; Accessibility</li>
+        </ul>
+      </div>
+       <aside class="hero-right">
+        <img src="assets/avatar.jpg" alt="Your avatar" class="avatar" onerror="this.style.display='none'">
+        <div class="contact-card">
+          <p>Email: <a href="mailto:you@example.com">Shatrudhah7905@gmail.com</a></p>
+          <p>Location: Your City, Country</p>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="card reveal">
+      <h2>About</h2>
+      <p>I am a frontend developer focused on building clean interfaces and great user experiences. I enjoy turning ideas into polished, production-ready code.</p>
+    </section>
+
+    <section id="projects" class="card reveal">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project">
+          <h3>Portfolio Website</h3>
+          <p>Responsive portfolio built with semantic HTML and modular CSS.</p>
+        </article>
+        <article class="project">
+          <h3>E-commerce UI</h3>
+          <p>Product listing, filters and cart interactions with focus on performance.</p>
+        </article>
+        <article class="project">
+          <h3>Dashboard</h3>
+          <p>Interactive charts and accessible controls for admin users.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="card reveal">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React</span>
+        <span class="skill">TypeScript</span>
+      </div>
+    </section>
+
+       <section id="resume" class="card reveal">
+      <h2>Resume</h2>
+      <p class="muted">Download resume (replace link with your PDF)</p>
+      <a class="btn" href="#" onclick="alert('Replace href with your resume file')">Download PDF</a>
+
+      <h3 style="margin-top:18px">Experience</h3>
+      <ul class="muted">
+        <li><strong>Frontend Engineer</strong> — </li>
+        <li><strong>UI Developer</strong> —</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card reveal">
+      <h2>Contact</h2>
+      <p class="muted">Interested in working together? Send a message.</p>
+      <form id="contactForm">
+        <div class="form-grid">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+           <textarea name="message" placeholder="Message" required></textarea>
+        <div style="margin-top:12px">
+          <button class="btn primary" type="submit">Send message</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="site-footer">
+      <small>© <span id="year"></span> Shatrudhah • Built with care.</small>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+     
